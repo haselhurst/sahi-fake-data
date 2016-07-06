@@ -20,7 +20,7 @@ You are then able to call any of the functions within that include file. You'll 
 
 The example.sah gives you an example of how to call the different functions. It stores the result of the different functions as variables and logs then in Sahi.
 
-There is also a CSV folder that you'll need to place alongside your fake-data-include file. The CSV files contained within store most of the data that this API generates, so it is essential that these files are present.
+There is also a CSV folder that contains CSV files which drive a lot of the randomised data that the API generates. By default this folder should be placed alongside your fake-data-include.sah file, but you can change this location by altering the $csvLocation variable within this file.
 
 When you implement this sahi-fake-data library into your project you'll likely want to do something more than just logging this information; you'll probably want to populate some fields with it. You'll find a code example below to show how that is done too.
 
